@@ -20,7 +20,7 @@ Title:
     The H1 of your Quickstart should be in the format: # Quickstart: [Product Name] client library for [Language]
 -->
 
-# Quickstart: [product name] client library for .NET
+# Quickstart: [Product Name] client library for .NET
 
 Get started with the [Product Name] client library for .NET. Follow these steps to install the package and try out the example code for basic tasks. 
 
@@ -32,7 +32,7 @@ Get started with the [Product Name] client library for .NET. Follow these steps 
     Lastly, include the following single line of links targeting the library's companion content at the bottom of the introduction; make adjustments as necessary, for example NuGet instead of PyPi:
 -->
 
-Use the [product name] client library for .NET to:
+Use the [Product Name] client library for .NET to:
 
 * TBD
 * TBD
@@ -56,7 +56,7 @@ Use the [product name] client library for .NET to:
     See the "setting up" section for more details: 
     https://review.docs.microsoft.com/en-us/help/contribute/contribute-how-to-write-library-quickstart-v2?branch=pr-en-us-2187#setting-up -->
 
-### Create a [product name] Azure resource
+### Create a [Product Name] Azure resource
 
 Azure Cognitive Services are represented by Azure resources that you subscribe to. Create a resource for [Product name] using the [Azure portal](https://docs.microsoft.com/azure/cognitive-services/cognitive-services-apis-create-account) or [Azure CLI](https://docs.microsoft.com/azure/cognitive-services/cognitive-services-apis-create-account-cli) on your local machine. You can also:
 
@@ -108,10 +108,10 @@ static void Main(string[] args){
 
 ### Install the client library
 
-Within the application directory, install the [product] client library for .NET with the following command:
+Within the application directory, install the [Product Name] client library for .NET with the following command:
 
 ```console
-dotnet add package Microsoft.Azure.CognitiveServices.[product] --version x.y
+dotnet add package Microsoft.Azure.CognitiveServices.[Product Name] --version x.y
 ```
 
 If you're using the Visual Studio IDE, the client library is available as a downloadable NuGet package.
@@ -132,7 +132,7 @@ If you're using the Visual Studio IDE, the client library is available as a down
     Include links to the service's reference content when introducing a class for the first time
 -->
 
-These code snippets show you how to do the following with the [product] client library for .NET:
+These code snippets show you how to do the following with the [Product Name] client library for .NET:
 
 * [Authenticate the client](#authenticate-the-client)
 * [link to example task 1]()
@@ -151,7 +151,7 @@ These code snippets show you how to do the following with the [product] client l
 -->
 
 > [!NOTE]
-> This quickstart assumes you've [created an environment variable](https://docs.microsoft.com/azure/cognitive-services/cognitive-services-apis-create-account#configure-an-environment-variable-for-authentication) for your [product] key, named `TBD_KEY`.
+> This quickstart assumes you've [created an environment variable](https://docs.microsoft.com/azure/cognitive-services/cognitive-services-apis-create-account#configure-an-environment-variable-for-authentication) for your [Product Name] key, named `TBD_KEY`.
 
 
 In a new method, instantiate a client with your endpoint and key. Create an [ApiKeyServiceClientCredentials]() object with your key, and use it with your endpoint to create an [ApiClient]() object.
@@ -202,7 +202,7 @@ If you want to clean up and remove a Cognitive Services subscription, you can de
 > [!div class="nextstepaction"]
 >[Next article]()
 
-* [What is the [product] API?](../overview.md)
+* [What is the [Product Name] API?](../overview.md)
 * [Article2](../overview.md)
 * [Article3](../overview.md)
 * The source code for this sample can be found on [GitHub]().

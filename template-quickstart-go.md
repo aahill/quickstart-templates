@@ -20,11 +20,11 @@ Title:
     The H1 of your Quickstart should be in the format: # Quickstart: [Product Name] client library for [Language]
 -->
 
-# Quickstart: [product name] client library for Go
+# Quickstart: [Product Name] client library for Go
 
-Get started with the [product name] client library for Go. Follow these steps to install the library and try out our examples for basic tasks. 
+Get started with the [Product Name] client library for Go. Follow these steps to install the library and try out our examples for basic tasks. 
 
-Use the [product name] client library for Go to: 
+Use the [Product Name] client library for Go to: 
 
 * Task 1
 * Task 2
@@ -37,7 +37,7 @@ Use the [product name] client library for Go to:
 
 ## Setting up
 
-### Create a [product name] Azure resource 
+### Create a [Product Name] Azure resource 
 
 Azure Cognitive Services are represented by Azure resources that you subscribe to. Create a resource for [Product name] using the [Azure portal](https://docs.microsoft.com/azure/cognitive-services/cognitive-services-apis-create-account) or [Azure CLI](https://docs.microsoft.com/azure/cognitive-services/cognitive-services-apis-create-account-cli) on your local machine. You can also:
 
@@ -103,7 +103,7 @@ import (
 
 ### Code examples
 
-These code samples show you how to complete basic tasks using the [product name] client library for Go:
+These code samples show you how to complete basic tasks using the [Product Name] client library for Go:
 
 * [Authenticate the client](#)
 * [Example task 1 (anchor link)](#)
@@ -113,7 +113,7 @@ These code samples show you how to complete basic tasks using the [product name]
 ### Authenticate the client
 
 > [!NOTE] 
-> This quickstart assumes you've [created an environment variable](https://docs.microsoft.com/azure/cognitive-services/cognitive-services-apis-create-account#configure-an-environment-variable-for-authentication) for your [product] key, named `TBD_KEY`.
+> This quickstart assumes you've [created an environment variable](https://docs.microsoft.com/azure/cognitive-services/cognitive-services-apis-create-account#configure-an-environment-variable-for-authentication) for your [Product Name] key, named `TBD_KEY`.
 
 In a new method, instantiate a client with your endpoint and key. Create an [ApiKeyServiceClientCredentials]() object with your key, and use it with your endpoint to create an [ApiClient]() object.
 
@@ -165,6 +165,6 @@ If you want to clean up and remove a Cognitive Services subscription, you can de
 
 ## See also
 
-* [What is the [product]?](#)
+* [What is the [Product Name]?](#)
 * [API reference](#)
 * The source code for this sample can be found on [GitHub](#).

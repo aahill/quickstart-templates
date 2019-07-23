@@ -20,7 +20,7 @@ Title:
     The H1 of your Quickstart should be in the format: # Quickstart: [Product Name] client library for [Language]
 -->
 
-# Quickstart: [product name] client library for Ruby
+# Quickstart: [Product Name] client library for Ruby
 
 Get started with the [Product Name] client library for Ruby. Follow these steps to install the package and try out the example code for basic tasks. 
 
@@ -32,7 +32,7 @@ Get started with the [Product Name] client library for Ruby. Follow these steps 
     Lastly, include the following single line of links targeting the library's companion content at the bottom of the introduction; make adjustments as necessary, for example NuGet instead of PyPi:
 -->
 
-Use the [product name] client library for Ruby to:
+Use the [Product Name] client library for Ruby to:
 
 * TBD
 * TBD
@@ -58,7 +58,7 @@ Use the [product name] client library for Ruby to:
 -->
 
 
-### Create a [product name] Azure resource
+### Create a [Product Name] Azure resource
 
 Azure Cognitive Services are represented by Azure resources that you subscribe to. Create a resource for [Product name] using the [Azure portal](https://docs.microsoft.com/azure/cognitive-services/cognitive-services-apis-create-account) or [Azure CLI](https://docs.microsoft.com/azure/cognitive-services/cognitive-services-apis-create-account-cli) on your local machine. You can also:
 
@@ -92,7 +92,7 @@ Create a new file named `Gemfile`. Then add the following lines to import the cl
 
 ```ruby
 source 'https://rubygems.org'
-gem 'azure_cognitiveservices_[product]'
+gem 'azure_cognitiveservices_[Product Name]'
 ```
 
 ## Object model
@@ -111,7 +111,7 @@ gem 'azure_cognitiveservices_[product]'
     Include links to the service's reference content when introducing a class for the first time
 -->
 
-These code snippets show you how to do the following with the [product] client library for Ruby:
+These code snippets show you how to do the following with the [Product Name] client library for Ruby:
 
 * [Authenticate the client](#authenticate-the-client)
 * [link to example task 1]()
@@ -121,7 +121,7 @@ These code snippets show you how to do the following with the [product] client l
 ### Authenticate the application
 
 > [!NOTE]
-> This quickstart assumes you've [created an environment variable](https://docs.microsoft.com/azure/cognitive-services/cognitive-services-apis-create-account#configure-an-environment-variable-for-authentication) for your [product] key, named `TBD_KEY`.
+> This quickstart assumes you've [created an environment variable](https://docs.microsoft.com/azure/cognitive-services/cognitive-services-apis-create-account#configure-an-environment-variable-for-authentication) for your [Product Name] key, named `TBD_KEY`.
 
 Instantiate a client with your endpoint and key. Create an [ApiKeyServiceClientCredentials]() object with your key, and use it with your endpoint to create an [ApiClient]() object.
 
@@ -171,7 +171,7 @@ If you want to clean up and remove a Cognitive Services subscription, you can de
 > [!div class="nextstepaction"]
 >[Next article]()
 
-* [What is the [product] API?](../overview.md)
+* [What is the [Product Name] API?](../overview.md)
 * [Article2](../overview.md)
 * [Article3](../overview.md)
 * The source code for this sample can be found on [GitHub]().
