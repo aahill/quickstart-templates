@@ -64,13 +64,13 @@ Azure Cognitive Services are represented by Azure resources that you subscribe t
 * View your resource on the [Azure Portal](https://portal.azure.com/).
 
 <!-- rename TBD_KEY to something meaningful for your service, like TEXT_ANALYTICS_KEY -->
-After getting a key from your trial subscription or resource, [create an environment variable](https://docs.microsoft.com/azure/cognitive-services/cognitive-services-apis-create-account#configure-an-environment-variable-for-authentication) for the key, named `TBD_KEY`.
+After you get a key from your trial subscription or resource, [create an environment variable](https://docs.microsoft.com/azure/cognitive-services/cognitive-services-apis-create-account#configure-an-environment-variable-for-authentication) for the key, named `TBD_KEY`.
 
 ### Create a new C# application
 
 Create a new .NET Core application in your preferred editor or IDE. 
 
-In a console window (such as cmd, PowerShell, or Bash), use the dotnet `new` command to create a new console app with the name `(product-name)-quickstart`. This command creates a simple "Hello World" C# project with a single source file: `Program.cs`. 
+In a console window (such as cmd, PowerShell, or Bash), use the `dotnet new` command to create a new console app with the name `(product-name)-quickstart`. This command creates a simple "Hello World" C# project with a single source file: *program.cs*. 
 
 ```console
 dotnet new console -n (product-name)-quickstart
@@ -92,14 +92,14 @@ Build succeeded.
 ...
 ```
 
-From the project directory, open the Program.cs file in your preferred editor or IDE. Add the following `using` directives:
+From the project directory, open the *program.cs* file in your preferred editor or IDE. Add the following `using` directives:
 
 ```csharp
 using ...
 using ...
 ```
 
-In the application's `main()` method, create variables for your resource's Azure location, and your key as an environment variable. If you created the environment variable after the application is launched, the editor, IDE, or shell running it will need to be closed and reloaded to access the variable. The methods will be created later.
+In the application's `Main` method, create variables for your resource's Azure location and key as environment variables. If you created the environment variable after you launched the application, you will need to close and reopen the editor, IDE, or shell running it to access the variable. You will define the methods later.
 
 ```csharp
 static void Main(string[] args){
@@ -133,7 +133,7 @@ If you're using the Visual Studio IDE, the client library is available as a down
     Include links to the service's reference content when introducing a class for the first time
 -->
 
-These code snippets show you how to do the following with the [Product Name] client library for .NET:
+These code snippets show you how to do the following tasks with the [Product Name] client library for .NET:
 
 * [Authenticate the client](#authenticate-the-client)
 * [link to example task 1]()
@@ -179,7 +179,7 @@ Example: Create a new method to read in the data and add it to a [Request](https
 
 ## Run the application
 
-Run the application with the dotnet `run` command from your application directory.
+Run the application from your application directory with the `dotnet run` command.
 
 ```dotnet
 dotnet run

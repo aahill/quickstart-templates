@@ -65,7 +65,7 @@ Azure Cognitive Services are represented by Azure resources that you subscribe t
 * View your resource on the [Azure Portal](https://portal.azure.com/).
 
 <!-- rename TBD_KEY to something meaningful for your service, like TEXT_ANALYTICS_KEY -->
-After getting a key from your trial subscription or resource, [create an environment variable](https://docs.microsoft.com/azure/cognitive-services/cognitive-services-apis-create-account#configure-an-environment-variable-for-authentication) for the key, named `TBD_KEY`.
+After you get a key from your trial subscription or resource, [create an environment variable](https://docs.microsoft.com/azure/cognitive-services/cognitive-services-apis-create-account#configure-an-environment-variable-for-authentication) for the key, named `TBD_KEY`.
 
 ### Create a new Gradle project
 
@@ -78,7 +78,8 @@ In a console window (such as cmd, PowerShell, or Bash), create a new directory f
 ```console
 mkdir myapp && cd myapp
 ```
-Run `gradle init`. This command will create essential build files for Gradle, most importantly, the `build.gradle.kts`, which is used at runtime to create and configure your application. Run this command from your working directory:
+
+Run the `gradle init` command from your working directory. This command will create essential build files for Gradle, including the `build.gradle.kts` which is used at runtime to create and configure your application.
 
 ```
 gradle init --type basic
@@ -86,24 +87,24 @@ gradle init --type basic
 
 When prompted to choose a **DSL**, select **Kotlin**.
 
-Locate `build.gradle.kts` and open it with your preferred IDE or text editor. Then copy in this build configuration:
+Locate *build.gradle.kts* and open it with your preferred IDE or text editor. Then copy in this build configuration:
 
 ```kotlin
 
 ```
 <!-- replace <classname> with a descriptive name for your service-->
-Create a folder for your sample app. From your working directory, run the following command. Then create a file named <classname>.java:
+Create a folder for your sample app. From your working directory, run the following command:
 
 ```console
 mkdir -p src/main/java
 ```
 
-Open the project's Java file in your preferred editor or IDE and import the following libraries:
+Navigate to the new folder and create a file called *<classname>.java*. Open it in your preferred editor or IDE and add the following `import` statements:
 
 ```java
 ```
 
-In the application's `main()` method, create variables for your resource's Azure location, and your key as an environment variable. If you created the environment variable after the application is launched, the editor, IDE, or shell running it will need to be closed and reloaded to access the variable. The methods will be created later.
+In the application's `main` method, create variables for your resource's Azure location and key as environment variables. If you created the environment variable after you launched the application, you will need to close and reopen the editor, IDE, or shell running it to access the variable. You will define the methods later.
 
 ```java
 
