@@ -104,7 +104,7 @@ Navigate to the new folder and create a file called *<classname>.java*. Open it 
 ```java
 ```
 
-In the application's `main` method, create variables for your resource's Azure location and key as environment variables. If you created the environment variable after you launched the application, you will need to close and reopen the editor, IDE, or shell running it to access the variable. You will define the methods later.
+In the application's `main` method, create variables for your resource's Azure endpoint and key. If you created the environment variable after you launched the application, you will need to close and reopen the editor, IDE, or shell running it to access the variable. You will define the methods later.
 
 ```java
 

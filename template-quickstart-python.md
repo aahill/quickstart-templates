@@ -81,7 +81,7 @@ import ...
 -->
 
 
-Create variables for your resource's Azure location, and your key as an environment variable. If you created the environment variable after you launched the application, you will need to close and reopen the editor, IDE, or shell running it to access the variable.
+Create variables for your resource's Azure endpoint and key. If you created the environment variable after you launched the application, you will need to close and reopen the editor, IDE, or shell running it to access the variable.
 
 ```python
 

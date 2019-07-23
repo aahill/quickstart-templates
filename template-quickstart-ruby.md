@@ -80,7 +80,7 @@ In a console window (such as cmd, PowerShell, or Bash), create a new directory f
 mkdir myapp && cd myapp
 ```
 
-In your Ruby file, create variables for your resource's Azure location, and your key as an environment variable. If you created the environment variable after you launched the application, you will need to close and reopen the editor, IDE, or shell running it to access the variable. Import the following libraries:
+In your Ruby file, create variables for your resource's Azure endpoint and key. If you created the environment variable after you launched the application, you will need to close and reopen the editor, IDE, or shell running it to access the variable. Import the following libraries:
 
 ```ruby
 require ''
