@@ -79,9 +79,9 @@ In a console window (such as cmd, PowerShell, or Bash), create a new directory f
 mkdir myapp && cd myapp
 ```
 
-Run the `gradle init` command from your working directory. This command will create essential build files for Gradle, including the `build.gradle.kts` which is used at runtime to create and configure your application.
+Run the `gradle init` command from your working directory. This command will create essential build files for Gradle, including *build.gradle.kts* which is used at runtime to create and configure your application.
 
-```
+```console
 gradle init --type basic
 ```
 
@@ -114,7 +114,7 @@ In the application's `main` method, create variables for your resource's Azure l
 
 This quickstart uses the Gradle dependency manager. You can find the client library and information for other dependency managers on the [Maven Central Repository](https://search.maven.org/artifact/com.microsoft.azure.cognitiveservices/azure-cognitiveservices-textanalytics/).
 
-In your project's `build.gradle.kts` file, be sure to include the client library as an `implementation` statement. 
+In your project's *build.gradle.kts* file, be sure to include the client library as an `implementation` statement. 
 
 ```kotlin
 dependencies {
@@ -138,7 +138,7 @@ dependencies {
     Include links to the service's reference content when introducing a class for the first time
 -->
 
-These code snippets show you how to do the following with the [Product Name] client library for Java:
+These code snippets show you how to do the following tasks with the [Product Name] client library for Java:
 
 * [Authenticate the client](#authenticate-the-client)
 * [link to example task 1]()
