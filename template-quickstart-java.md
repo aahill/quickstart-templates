@@ -130,6 +130,12 @@ dependencies {
     Briefly explain the object hierarchy and how the classes work together to manipulate resources in the service.
 -->
 
+The following classes handle some of the major features of the [Product Name] Java SDK.
+
+|Name|Description|
+|---|---|
+| | |
+
 ## Code examples
 
 <!--

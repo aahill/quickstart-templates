@@ -99,8 +99,13 @@ import (
 )
 ```
 
+## Object model
 
-## Object model 
+The following classes handle some of the major features of the [Product Name] Go SDK.
+
+|Name|Description|
+|---|---|
+| | |
 
 ### Code examples
 
