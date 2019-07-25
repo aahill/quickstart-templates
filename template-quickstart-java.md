@@ -107,7 +107,7 @@ dependencies {
 }
 ```
 <!-- replace <classname> with a descriptive name for your service-->
-Create a folder for your sample app. From your working directory, run the following command:
+From your working directory, run the following command to create a project source folder:
 
 ```console
 mkdir -p src/main/java
