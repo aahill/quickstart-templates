@@ -101,7 +101,7 @@ import (
 
 ## Object model
 
-The following classes handle some of the major features of the [Product Name] Go SDK.
+The following classes and interfaces handle some of the major features of the [Product Name] Go SDK.
 
 |Name|Description|
 |---|---|

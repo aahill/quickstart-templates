@@ -125,7 +125,7 @@ If you're using the Visual Studio IDE, the client library is available as a down
     Briefly explain the object hierarchy and how the classes work together to manipulate resources in the service.
 -->
 
-The following classes handle some of the major features of the [Product Name] .NET SDK.
+The following classes and interfaces handle some of the major features of the [Product Name] .NET SDK.
 
 |Name|Description|
 |---|---|
