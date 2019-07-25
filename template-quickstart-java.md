@@ -87,10 +87,24 @@ gradle init --type basic
 
 When prompted to choose a **DSL**, select **Kotlin**.
 
-Locate *build.gradle.kts* and open it with your preferred IDE or text editor. Then copy in this build configuration:
+<!--replace all <service-specific> values -->
+
+Locate *build.gradle.kts* and open it with your preferred IDE or text editor. Then copy in the following build configuration. This defines the project as a Java application whose entry point is the class **<service-specific>**. It imports the Computer Vision library.
 
 ```kotlin
-
+plugins {
+    java
+    application
+}
+application { 
+    mainClassName = "<service-specific>"
+}
+repositories {
+    mavenCentral()
+}
+dependencies {
+	compile(group = "<service-specific>", name = "<service-specific>", version = "<service-specific>")
+}
 ```
 <!-- replace <classname> with a descriptive name for your service-->
 Create a folder for your sample app. From your working directory, run the following command:
@@ -196,7 +210,7 @@ You can build the app with:
 gradle build
 ```
 
-Run the application with the `run` goal:
+Run the application with the `gradle run` command:
 
 ```console
 gradle run
