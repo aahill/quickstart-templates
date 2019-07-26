@@ -67,7 +67,7 @@ Azure Cognitive Services are represented by Azure resources that you subscribe t
 <!-- rename TBD_KEY to something meaningful for your service, like TEXT_ANALYTICS_KEY -->
 After you get a key from your trial subscription or resource, [create an environment variable](https://docs.microsoft.com/azure/cognitive-services/cognitive-services-apis-create-account#configure-an-environment-variable-for-authentication) for the key, named `TBD_KEY`.
  
-### Create a new python application
+### Create a new Python application
 
 Create a new Python application in your preferred editor or IDE. Then import the following libraries.
 
@@ -89,7 +89,7 @@ Create variables for your resource's Azure endpoint and key. If you created the 
 
 ### Install the client library
 
-After installing Python, you can install the client library with:
+You can install the client library with:
 
 ```console
 pip install --upgrade azure-cognitiveservices-[Product Name]
@@ -131,7 +131,7 @@ These code snippets show you how to do the following tasks with the [Product Nam
 -->
 
 > [!NOTE]
-> This quickstart assumes you've [created an environment variable](../../cognitive-services-apis-create-account.md#configure-an-environment-variable-for-authentication) for your [Product Name] key, named `[PRODUCT]_KEY`.
+> This quickstart assumes you've [created an environment variable](../../cognitive-services-apis-create-account.md#configure-an-environment-variable-for-authentication) for your [Product Name] key, named `TBD_KEY`.
 
 Instantiate a client with your endpoint and key. Create a [CognitiveServicesCredentials](https://docs.microsoft.com/python/api/msrest/msrest.authentication.cognitiveservicescredentials?view=azure-python) object with your key, and use it with your endpoint to create an [ApiClient]() object.
 
