@@ -118,7 +118,7 @@ The following classes and interfaces handle some of the major features of the [P
     Include links to the service's reference content when introducing a class for the first time
 -->
 
-These code snippets show you how to do the following with the [Product Name] client library for Ruby:
+These code snippets show you how to do the following tasks with the [Product Name] client library for Ruby:
 
 * [Authenticate the client](#authenticate-the-client)
 * [link to example task 1]()
