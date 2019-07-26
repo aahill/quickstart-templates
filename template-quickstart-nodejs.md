@@ -129,7 +129,7 @@ The following classes and interfaces handle some of the major features of the [P
     Include links to the service's reference content when introducing a class for the first time
 -->
 
-These code snippets show you how to do the following tasks with the [Product Name] client library for .NET:
+These code snippets show you how to do the following tasks with the [Product Name] client library for Node.js:
 
 * [Authenticate the client](#authenticate-the-client)
 * [link to example task 1]()
