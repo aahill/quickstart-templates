@@ -79,7 +79,7 @@ In a console window (such as cmd, PowerShell, or Bash), create a new directory f
 mkdir myapp && cd myapp
 ```
 
-Run the `gradle init` command from your working directory. This command will create essential build files for Gradle, including *build.gradle.kts* which is used at runtime to create and configure your application.
+Run the `gradle init` command from your working directory. This command will create essential build files for Gradle, including *build.gradle.kts*, which is used at runtime to create and configure your application.
 
 ```console
 gradle init --type basic
@@ -89,7 +89,7 @@ When prompted to choose a **DSL**, select **Kotlin**.
 
 <!--replace all <service-specific> values -->
 
-Locate *build.gradle.kts* and open it with your preferred IDE or text editor. Then copy in the following build configuration. This defines the project as a Java application whose entry point is the class **<service-specific>**. It imports the Computer Vision library.
+Locate *build.gradle.kts* and open it with your preferred IDE or text editor. Then copy in the following build configuration. This configuration defines the project as a Java application whose entry point is the class **<service-specific>**. It imports the Computer Vision library.
 
 ```kotlin
 plugins {
