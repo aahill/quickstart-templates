@@ -20,7 +20,7 @@ Title:
     The H1 of your Quickstart should be in the format: # Quickstart: [Product Name] client library for [Language]
 -->
 
-# Quickstart: [product name] client library for Node.js
+# Quickstart: [Product Name] client library for Node.js
 
 Get started with the [Product Name] client library for Node.js. Follow these steps to install the package and try out the example code for basic tasks. 
 
@@ -32,7 +32,7 @@ Get started with the [Product Name] client library for Node.js. Follow these ste
     Lastly, include the following single line of links targeting the library's companion content at the bottom of the introduction; make adjustments as necessary, for example NuGet instead of PyPi:
 -->
 
-Use the [product name] client library for Node.js to:
+Use the [Product Name] client library for Node.js to:
 
 * TBD
 * TBD
@@ -58,14 +58,15 @@ Use the [product name] client library for Node.js to:
 -->
 
 
-### Create a [product name] Azure resource
+### Create a [Product Name] Azure resource
 
 Azure Cognitive Services are represented by Azure resources that you subscribe to. Create a resource for [Product name] using the [Azure portal](https://docs.microsoft.com/azure/cognitive-services/cognitive-services-apis-create-account) or [Azure CLI](https://docs.microsoft.com/azure/cognitive-services/cognitive-services-apis-create-account-cli) on your local machine. You can also:
 
 * Get a [trial key](https://azure.microsoft.com/try/cognitive-services/#decision) valid for 7 days for free. After signing up it will be available on the [Azure website](https://azure.microsoft.com/try/cognitive-services/my-apis/).  
 * View your resource on the [Azure Portal](https://portal.azure.com/).
-<-- rename TBD_KEY to something meaningful for your service, like TEXT_ANALYTICS_KEY -->
-After getting a key from your trial subscription or resource, [create an environment variable](https://docs.microsoft.com/azure/cognitive-services/cognitive-services-apis-create-account#configure-an-environment-variable-for-authentication) for the key, named `TBD_KEY`.
+
+<!-- rename TBD_KEY to something meaningful for your service, like TEXT_ANALYTICS_KEY -->
+After you get a key from your trial subscription or resource, [create an environment variable](https://docs.microsoft.com/azure/cognitive-services/cognitive-services-apis-create-account#configure-an-environment-variable-for-authentication) for the key, named `TBD_KEY`.
  
 ### Create a new Node.js application
 
@@ -90,7 +91,7 @@ Create a file named `index.js` and import the following libraries:
 
 ```
 
-Create variables for your resource's Azure location, and your key as an environment variable. If you created the environment variable after the application is launched, the editor, IDE, or shell running it will need to be closed and reloaded to access the variable.
+Create variables for your resource's Azure endpoint and key. If you created the environment variable after you launched the application, you will need to close and reopen the editor, IDE, or shell running it to access the variable.
 
 ```javascript
 
@@ -98,10 +99,10 @@ Create variables for your resource's Azure location, and your key as an environm
 
 ### Install the client library
 
-Install the `ms-rest-azure` and `azure-cognitiveservices-[product]` NPM packages:
+Install the `ms-rest-azure` and `azure-cognitiveservices-[Product Name]` NPM packages:
 
 ```console
-npm install azure-cognitiveservices-[product] ms-rest-azure
+npm install azure-cognitiveservices-[Product Name] ms-rest-azure
 ```
 
 Your app's `package.json` file will be updated with the dependencies.
@@ -122,7 +123,7 @@ Your app's `package.json` file will be updated with the dependencies.
     Include links to the service's reference content when introducing a class for the first time
 -->
 
-These code snippets show you how to do the following with the [product] client library for .NET:
+These code snippets show you how to do the following with the [Product Name] client library for .NET:
 
 * [Authenticate the client](#authenticate-the-client)
 * [link to example task 1]()
@@ -139,7 +140,7 @@ These code snippets show you how to do the following with the [product] client l
 -->
 
 > [!NOTE]
-> This quickstart assumes you've [created an environment variable](https://docs.microsoft.com/azure/cognitive-services/cognitive-services-apis-create-account#configure-an-environment-variable-for-authentication) for your [product] key, named `TBD_KEY`.
+> This quickstart assumes you've [created an environment variable](https://docs.microsoft.com/azure/cognitive-services/cognitive-services-apis-create-account#configure-an-environment-variable-for-authentication) for your [Product Name] key, named `TBD_KEY`.
 
 Instantiate a client with your endpoint and key. Create an [ApiKeyServiceClientCredentials]() object with your key, and use it with your endpoint to create an [ApiClient]() object.
 
@@ -188,7 +189,7 @@ If you want to clean up and remove a Cognitive Services subscription, you can de
 > [!div class="nextstepaction"]
 >[Next article]()
 
-* [What is the [product] API?](../overview.md)
+* [What is the [Product Name] API?](../overview.md)
 * [Article2](../overview.md)
 * [Article3](../overview.md)
 * The source code for this sample can be found on [GitHub]().

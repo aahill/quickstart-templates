@@ -20,9 +20,9 @@ Title:
     The H1 of your Quickstart should be in the format: # Quickstart: [Product Name] client library for [Language]
 -->
 
-# Quickstart: [product name] client library for .NET
+# Quickstart: [Product Name] client library for .NET
 
-Get started with the [Product Name] client library for .NET. Follow these steps to install the package and try out the example code for basic tasks. 
+Get started with the [Product Name] client library for .NET. Follow these steps to install the package and try out the example code for basic tasks.
 
 <!-- 
     After the above line, briefly describe the service. You can often use the first line of the service's docs landing page for this.
@@ -32,7 +32,7 @@ Get started with the [Product Name] client library for .NET. Follow these steps 
     Lastly, include the following single line of links targeting the library's companion content at the bottom of the introduction; make adjustments as necessary, for example NuGet instead of PyPi:
 -->
 
-Use the [product name] client library for .NET to:
+Use the [Product Name] client library for .NET to:
 
 * TBD
 * TBD
@@ -56,20 +56,21 @@ Use the [product name] client library for .NET to:
     See the "setting up" section for more details: 
     https://review.docs.microsoft.com/en-us/help/contribute/contribute-how-to-write-library-quickstart-v2?branch=pr-en-us-2187#setting-up -->
 
-### Create a [product name] Azure resource
+### Create a [Product Name] Azure resource
 
 Azure Cognitive Services are represented by Azure resources that you subscribe to. Create a resource for [Product name] using the [Azure portal](https://docs.microsoft.com/azure/cognitive-services/cognitive-services-apis-create-account) or [Azure CLI](https://docs.microsoft.com/azure/cognitive-services/cognitive-services-apis-create-account-cli) on your local machine. You can also:
 
 * Get a [trial key](https://azure.microsoft.com/try/cognitive-services/#decision) valid for 7 days for free. After signing up it will be available on the [Azure website](https://azure.microsoft.com/try/cognitive-services/my-apis/).  
 * View your resource on the [Azure Portal](https://portal.azure.com/).
-<-- rename TBD_KEY to something meaningful for your service, like TEXT_ANALYTICS_KEY -->
-After getting a key from your trial subscription or resource, [create an environment variable](https://docs.microsoft.com/azure/cognitive-services/cognitive-services-apis-create-account#configure-an-environment-variable-for-authentication) for the key, named `TBD_KEY`.
+
+<!-- rename TBD_KEY to something meaningful for your service, like TEXT_ANALYTICS_KEY -->
+After you get a key from your trial subscription or resource, [create an environment variable](https://docs.microsoft.com/azure/cognitive-services/cognitive-services-apis-create-account#configure-an-environment-variable-for-authentication) for the key, named `TBD_KEY`.
 
 ### Create a new C# application
 
 Create a new .NET Core application in your preferred editor or IDE. 
 
-In a console window (such as cmd, PowerShell, or Bash), use the dotnet `new` command to create a new console app with the name `(product-name)-quickstart`. This command creates a simple "Hello World" C# project with a single source file: `Program.cs`. 
+In a console window (such as cmd, PowerShell, or Bash), use the `dotnet new` command to create a new console app with the name `(product-name)-quickstart`. This command creates a simple "Hello World" C# project with a single source file: *program.cs*. 
 
 ```console
 dotnet new console -n (product-name)-quickstart
@@ -91,14 +92,14 @@ Build succeeded.
 ...
 ```
 
-From the project directory, open the Program.cs file in your preferred editor or IDE. Add the following `using` directives:
+From the project directory, open the *program.cs* file in your preferred editor or IDE. Add the following `using` directives:
 
 ```csharp
 using ...
 using ...
 ```
 
-In the application's `main()` method, create variables for your resource's Azure location, and your key as an environment variable. If you created the environment variable after the application is launched, the editor, IDE, or shell running it will need to be closed and reloaded to access the variable. The methods will be created later.
+In the application's `Main` method, create variables for your resource's Azure endpoint and key. If you created the environment variable after you launched the application, you will need to close and reopen the editor, IDE, or shell running it to access the variable. You will define the methods later.
 
 ```csharp
 static void Main(string[] args){
@@ -108,10 +109,10 @@ static void Main(string[] args){
 
 ### Install the client library
 
-Within the application directory, install the [product] client library for .NET with the following command:
+Within the application directory, install the [Product Name] client library for .NET with the following command:
 
 ```console
-dotnet add package Microsoft.Azure.CognitiveServices.[product] --version x.y
+dotnet add package Microsoft.Azure.CognitiveServices.[Product Name] --version x.y
 ```
 
 If you're using the Visual Studio IDE, the client library is available as a downloadable NuGet package.
@@ -132,7 +133,7 @@ If you're using the Visual Studio IDE, the client library is available as a down
     Include links to the service's reference content when introducing a class for the first time
 -->
 
-These code snippets show you how to do the following with the [product] client library for .NET:
+These code snippets show you how to do the following tasks with the [Product Name] client library for .NET:
 
 * [Authenticate the client](#authenticate-the-client)
 * [link to example task 1]()
@@ -151,7 +152,7 @@ These code snippets show you how to do the following with the [product] client l
 -->
 
 > [!NOTE]
-> This quickstart assumes you've [created an environment variable](https://docs.microsoft.com/azure/cognitive-services/cognitive-services-apis-create-account#configure-an-environment-variable-for-authentication) for your [product] key, named `TBD_KEY`.
+> This quickstart assumes you've [created an environment variable](https://docs.microsoft.com/azure/cognitive-services/cognitive-services-apis-create-account#configure-an-environment-variable-for-authentication) for your [Product Name] key, named `TBD_KEY`.
 
 
 In a new method, instantiate a client with your endpoint and key. Create an [ApiKeyServiceClientCredentials]() object with your key, and use it with your endpoint to create an [ApiClient]() object.
@@ -178,7 +179,7 @@ Example: Create a new method to read in the data and add it to a [Request](https
 
 ## Run the application
 
-Run the application with the dotnet `run` command from your application directory.
+Run the application from your application directory with the `dotnet run` command.
 
 ```dotnet
 dotnet run
@@ -202,7 +203,7 @@ If you want to clean up and remove a Cognitive Services subscription, you can de
 > [!div class="nextstepaction"]
 >[Next article]()
 
-* [What is the [product] API?](../overview.md)
+* [What is the [Product Name] API?](../overview.md)
 * [Article2](../overview.md)
 * [Article3](../overview.md)
 * The source code for this sample can be found on [GitHub]().
