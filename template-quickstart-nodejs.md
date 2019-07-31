@@ -125,12 +125,12 @@ Your app's `package.json` file will be updated with the dependencies.
 
 These code snippets show you how to do the following with the [Product Name] client library for .NET:
 
-* [Authenticate the client](#authenticate-the-client)
-* [link to example task 1]()
-* [link to example task 2]()
-* [link to example task 3]()
+* [Authenticate the client](#)
+* [Example task 1 (anchor link)](#)
+* [Example task 2 (anchor link)](#)
+* [Example task 3 (anchor link)](#)
 
-### Authenticate the client
+## Authenticate the client
 <!--
 
     The authentication section (and its H3) is required and must be the first code example in the section if your library requires authentication for use.
@@ -149,14 +149,14 @@ Instantiate a client with your endpoint and key. Create an [ApiKeyServiceClientC
 
 ```
 
-### Example task 1
+## Example task 1
 
 Example: Create a new method to read in the data and add it to a [Request](https://docs.microsoft.com/dotnet/) object as an array of [Points](https://docs.microsoft.com/dotnet/). Send the request with the [send()](https://docs.microsoft.com/dotnet/) method
 
 ```javascript
 ```
 
-### Example task 2
+## Example task 2
 
 Example: Create a new method to read in the data and add it to a [Request](https://docs.microsoft.com/dotnet/) object as an array of [Points](https://docs.microsoft.com/dotnet/). Send the request with the [send()](https://docs.microsoft.com/dotnet/) method
 
