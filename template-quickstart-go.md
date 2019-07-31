@@ -102,7 +102,7 @@ import (
 
 ## Object model 
 
-### Code examples
+## Code examples
 
 These code samples show you how to complete basic tasks using the [Product Name] client library for Go:
 
@@ -111,7 +111,7 @@ These code samples show you how to complete basic tasks using the [Product Name]
 * [Example task 2 (anchor link)](#)
 * [Example task 3 (anchor link)](#)
 
-### Authenticate the client
+## Authenticate the client
 
 > [!NOTE] 
 > This quickstart assumes you've [created an environment variable](https://docs.microsoft.com/azure/cognitive-services/cognitive-services-apis-create-account#configure-an-environment-variable-for-authentication) for your [Product Name] key, named `TBD_KEY`.
@@ -122,7 +122,7 @@ In a new method, instantiate a client with your endpoint and key. Create an [Api
 
 ```
 
-### Example task 1
+## Example task 1
 
 Example: Create a new method to read in the data and add it to a [Request](https://docs.microsoft.com/dotnet/) object as an array of [Points](https://docs.microsoft.com/dotnet/). Send the request with the [send()](https://docs.microsoft.com/dotnet/) method
 
@@ -130,7 +130,7 @@ Example: Create a new method to read in the data and add it to a [Request](https
 
 ```
 
-### Example task 2
+## Example task 2
 
 Example: Create a new method to read in the data and add it to a [Request](https://docs.microsoft.com/dotnet/) object as an array of [Points](https://docs.microsoft.com/dotnet/). Send the request with the [send()](https://docs.microsoft.com/dotnet/) method
 
