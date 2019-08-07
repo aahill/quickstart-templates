@@ -102,7 +102,7 @@ Create variables for your resource's Azure endpoint and key. If you created the 
 Install the `ms-rest-azure` and `azure-cognitiveservices-[Product Name]` NPM packages:
 
 ```console
-npm install azure-cognitiveservices-[Product Name] ms-rest-azure
+npm install azure-cognitiveservices-[Product Name] ms-rest-azure --save
 ```
 
 Your app's `package.json` file will be updated with the dependencies.
