@@ -41,7 +41,7 @@ Use the [Product Name] client library for Java to:
     Include the following single line of links targeting the library's companion content at the bottom of the introduction; make adjustments as necessary, but try not to include any other links or content in the introduction.
 -->
 
-[Reference documentation](https://docs.microsoft.com/dotnet/api/Microsoft.Azure.CognitiveServices.AnomalyDetector?view=azure-dotnet-preview) | [Library source code](https://github.com/Azure/azure-sdk-for-net/tree/master/sdk/cognitiveservices/AnomalyDetector) | [Artifact (Maven)](https://www.nuget.org/packages/Microsoft.Azure.CognitiveServices.AnomalyDetector/) | [Samples](https://github.com/Azure-Samples/anomalydetector)
+[Reference documentation](https://docs.microsoft.com/dotnet/api/Microsoft.Azure.CognitiveServices.AnomalyDetector?view=azure-dotnet-preview) | [Library source code](https://github.com/Azure/azure-sdk-for-net/tree/master/sdk/cognitiveservices/AnomalyDetector) | [Artifact (Maven)](https://search.maven.org/artifact/com.microsoft.azure.cognitiveservices/azure-cognitiveservices-customsearch/1.0.2/jar) | [Samples](https://github.com/Azure-Samples/anomalydetector)
 
 ## Prerequisites
 
@@ -170,7 +170,7 @@ These code snippets show you how to do the following tasks with the [Product Nam
     For example: TEXT_ANALYTICS_KEY
 -->
 
-### Authenticate the client
+## Authenticate the client
 
 <!-- 
     The authentication section (and its H3) is required and must be the first code example in the section if your library requires authentication for use.
@@ -186,7 +186,7 @@ In a new method, instantiate a client with your endpoint and key. Create a [Cogn
 
 ```
 
-### Example task 1
+## Example task 1
 
 Example: Create a new method to read in the data and add it to a [Request](https://docs.microsoft.com/dotnet/) object as an array of [Points](https://docs.microsoft.com/dotnet/). Send the request with the [send()](https://docs.microsoft.com/dotnet/) method
 
@@ -194,7 +194,7 @@ Example: Create a new method to read in the data and add it to a [Request](https
 
 ```
 
-### Example task 2
+## Example task 2
 
 Example: Create a new method to read in the data and add it to a [Request](https://docs.microsoft.com/dotnet/) object as an array of [Points](https://docs.microsoft.com/dotnet/). Send the request with the [send()](https://docs.microsoft.com/dotnet/) method
 
