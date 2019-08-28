@@ -102,7 +102,7 @@ using ...
 In the application's `Main` method, create variables for your resource's Azure endpoint and key. If you created the environment variable after you launched the application, you will need to close and reopen the editor, IDE, or shell running it to access the variable. You will define the methods later.
 
 <!-- 
-    Be sure to call the example task functions here
+    Be sure the main method calls the example task functions in this quickstart.
 -->
 
 ```csharp
