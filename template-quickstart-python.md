@@ -141,6 +141,13 @@ Example: Create a new method to read in the data and add it to a [Request](https
 
 ```
 
+<!-- 
+    If this code sample is in a function, tell the reader to call it. For example:
+
+    Call the `example()` function.
+
+-->
+
 ## Example task 2
 
 Example: Create a new method to read in the data and add it to a [Request](https://docs.microsoft.com/dotnet/) object as an array of [Points](https://docs.microsoft.com/dotnet/). Send the request with the [send()](https://docs.microsoft.com/dotnet/) method
@@ -148,6 +155,13 @@ Example: Create a new method to read in the data and add it to a [Request](https
 ```python
 
 ```
+
+<!-- 
+    If this code sample is in a function, tell the reader to call it. For example:
+
+    Call the `example()` function.
+
+-->
 
 ## Run the application
 
