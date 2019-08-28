@@ -141,7 +141,7 @@ Example: Create a new method to read in the data and add it to a [Request](https
 
 ```
 
-<!- 
+<!-- 
     If this code sample is in a function, tell the reader to call it. For example:
 
     Call the `example()` function.
@@ -156,7 +156,7 @@ Example: Create a new method to read in the data and add it to a [Request](https
 
 ```
 
-<!- 
+<!-- 
     If this code sample is in a function, tell the reader to call it. For example:
 
     Call the `example()` function.
