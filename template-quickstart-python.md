@@ -69,7 +69,7 @@ After you get a key from your trial subscription or resource, [create an environ
  
 ### Create a new Python application
 
-Create a new Python application in your preferred editor or IDE. Then import the following libraries.
+Create a new Python script&mdash;*quickstart-file.py*, for example. Then open it in your preferred editor or IDE and import the following libraries.
 
 ```python
 import ...
@@ -80,12 +80,14 @@ import ...
     For example: TEXT_ANALYTICS_KEY
 -->
 
-
-Create variables for your resource's Azure endpoint and key. If you created the environment variable after you launched the application, you will need to close and reopen the editor, IDE, or shell running it to access the variable.
+Then, create variables for your resource's Azure endpoint and key.
 
 ```python
 
 ```
+
+> [!NOTE]
+> If you created the environment variable after you launched the application, you will need to close and reopen the editor, IDE, or shell running it to access the variable.
 
 ### Install the client library
 
