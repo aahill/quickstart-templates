@@ -22,13 +22,19 @@ Title:
 
 # Quickstart: [Product Name] client library for Go
 
-Get started with the [Product Name] client library for Go. Follow these steps to install the library and try out our examples for basic tasks. 
+Get started with the [Product Name] client library for Go. Follow these steps to install the library and try out our examples for basic tasks.
 
-Use the [Product Name] client library for Go to: 
+Use the [Product Name] client library for Go to:
 
 * Task 1
 * Task 2
 * ...
+
+<!--
+    Include the following single line of links targeting the library's companion content at the bottom of the introduction; make adjustments as necessary, but try not to include any other links or content in the introduction.
+-->
+
+[Reference documentation](tbd) | [Library source code](tbd) | [SDK download](tbd) | [Samples](tbd)
 
 ## Prerequisites
 
@@ -37,7 +43,7 @@ Use the [Product Name] client library for Go to:
 
 ## Setting up
 
-### Create a [Product Name] Azure resource 
+### Create a [Product Name] Azure resource
 
 Azure Cognitive Services are represented by Azure resources that you subscribe to. Create a resource for [Product name] using the [Azure portal](https://docs.microsoft.com/azure/cognitive-services/cognitive-services-apis-create-account) or [Azure CLI](https://docs.microsoft.com/azure/cognitive-services/cognitive-services-apis-create-account-cli) on your local machine. You can also:
 
@@ -47,27 +53,27 @@ Azure Cognitive Services are represented by Azure resources that you subscribe t
 <!-- rename TBD_KEY to something meaningful for your service, like TEXT_ANALYTICS_KEY -->
 After you get a key from your trial subscription or resource, [create an environment variable](https://docs.microsoft.com/azure/cognitive-services/cognitive-services-apis-create-account#configure-an-environment-variable-for-authentication) for the key, named `TBD_KEY`.
 
-### Create a new Go project
+### Create a Go project directory
 
-In a console window (cmd, PowerShell, Terminal, Bash), create a new workspace for your Go project and navigate to it. Your workspace will contain three folders: 
-
-* **src** - This directory contains source code and packages. Any packages installed with the `go get` command will reside here.
-* **pkg** - This directory contains the compiled Go package objects. These files all have an `.a` extension.
-* **bin** - This directory contains the binary executable files that are created when you run `go install`.
-
-> [!TIP]
-> Learn more about the structure of a [Go workspace](https://golang.org/doc/code.html#Workspaces). This guide includes information for setting `$GOPATH` and `$GOROOT`.
-
-Let's create a workspace called `my-app` and the required sub directories for `src`, `pkg`, and `bin`:
+In a console window (cmd, PowerShell, Terminal, Bash), create a new workspace for your Go project, named `my-app`, and navigate to it.
 
 ```
 $ mkdir -p my-app/{src, bin, pkg}  
 $ cd my-app
 ```
 
+Your workspace will contain three folders:
+
+* **src** - This directory will contain source code and packages. Any packages installed with the `go get` command will go here.
+* **pkg** - This directory will contain the compiled Go package objects. These files all have an `.a` extension.
+* **bin** - This directory will contains the binary executable files that are created when you run `go install`.
+
+> [!TIP]
+> To learn more about the structure of a Go workspace, see the [Go language documentation](https://golang.org/doc/code.html#Workspaces). This guide includes information for setting `$GOPATH` and `$GOROOT`.
+
 ### Install the client library for Go
 
-Now, let's install the client library for Go: 
+Next, install the client library for Go:
 
 ```bash
 $ go get -u <library-location-or-url>
@@ -79,16 +85,16 @@ or if you use dep, within your repo run:
 $ dep ensure -add <library-location-or-url>
 ```
 
-### Create your Go application
+### Create a Go application
 
-Next, let's create a file named `src/sample-app.go`:
+Next, create a file in the **src** directory named `sample-app.go`:
 
 ```bash
 $ cd src
 $ touch sample-app.go
 ```
 
-Open `sample-app.go` in your favorite IDE or text editor. Then add the package name and import the following libraries:
+Open `sample-app.go` in your preferred IDE or text editor. Then add the package name and import the following libraries:
 
 ```Go
 package main
