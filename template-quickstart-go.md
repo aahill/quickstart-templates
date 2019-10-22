@@ -58,8 +58,8 @@ After you get a key from your trial subscription or resource, [create an environ
 In a console window (cmd, PowerShell, Terminal, Bash), create a new workspace for your Go project, named `my-app`, and navigate to it.
 
 ```
-$ mkdir -p my-app/{src, bin, pkg}  
-$ cd my-app
+mkdir -p my-app/{src, bin, pkg}  
+cd my-app
 ```
 
 Your workspace will contain three folders:
@@ -76,13 +76,13 @@ Your workspace will contain three folders:
 Next, install the client library for Go:
 
 ```bash
-$ go get -u <library-location-or-url>
+go get -u <library-location-or-url>
 ```
 
 or if you use dep, within your repo run:
 
 ```bash
-$ dep ensure -add <library-location-or-url>
+dep ensure -add <library-location-or-url>
 ```
 
 ### Create a Go application
@@ -90,8 +90,8 @@ $ dep ensure -add <library-location-or-url>
 Next, create a file in the **src** directory named `sample-app.go`:
 
 ```bash
-$ cd src
-$ touch sample-app.go
+cd src
+touch sample-app.go
 ```
 
 Open `sample-app.go` in your preferred IDE or text editor. Then add the package name and import the following libraries:
