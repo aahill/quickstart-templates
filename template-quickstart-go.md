@@ -167,7 +167,7 @@ Example: Create a new method to read in the data and add it to a [Request](https
 
 Run your Go application with the `go run [arguments]` command from your application directory.
 
-```Go
+```bash
 go run sample-app.go
 ```
 
