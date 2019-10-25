@@ -68,7 +68,7 @@ After you get a key from your trial subscription or resource, [create an environ
 
 ### Create a new C# application
 
-Create a new .NET Core application in your preferred editor or IDE. 
+Create a new .NET Core application in your preferred text editor or IDE. 
 
 In a console window (such as cmd, PowerShell, or Bash), use the `dotnet new` command to create a new console app with the name `(product-name)-quickstart`. This command creates a simple "Hello World" C# project with a single source file: *Program.cs*.
 
@@ -92,7 +92,7 @@ Build succeeded.
 ...
 ```
 
-From the project directory, open the *Program.cs* file in your preferred editor or IDE. Add the following `using` directives:
+From the project directory, open the *Program.cs* file in your preferred text editor or IDE. Add the following `using` statements:
 
 ```csharp
 using ...
