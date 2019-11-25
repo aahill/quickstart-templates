@@ -57,24 +57,24 @@ Use the [Product Name] client library for Node.js to:
     https://review.docs.microsoft.com/en-us/help/contribute/contribute-how-to-write-library-quickstart-v2?branch=pr-en-us-2187#setting-up 
 -->
 
+<!-- 
+    Consider turning this setup section into a reusable include file for your service 
+-->
 
 ### Create a [Product Name] Azure resource
 
-<!-- 
-    Consider turning this into a reusable include file for your service 
--->
 Begin using the [Product Name] service by creating an Azure resource. Choose the resource type below that's right for you:
 
 * A [trial resource](https://azure.microsoft.com/try/cognitive-services/#decision) (no Azure subscription needed): 
     * Valid for seven days, for free. After signing up, a trial key and endpoint will be available on the [Azure website](https://azure.microsoft.com/try/cognitive-services/my-apis/). 
     * This is a great option if you want to try [Product Name], but don’t have an Azure subscription.
-
+<!-- Link to the 'create' blade in the azure portal -->
 * A [ [Product Name] resource](https://ms.portal.azure.com/#create/Microsoft.CognitiveServicesAnomalyDetector):
-    * Available through the [Azure portal](https://ms.portal.azure.com#blade/HubsExtension/BrowseResourceGroupBlade) until you delete the resource.
+    * Available through the Azure portal until you delete the resource.
     * Use the free pricing tier to try the service, and upgrade later to a paid tier for production.
 <!-- remove the below text if your service is not supported by the multi-service option. -->
 * A [Multi-Service resource](https://ms.portal.azure.com/#create/Microsoft.CognitiveServicesAllInOne):
-    * Available through the [Azure portal](https://ms.portal.azure.com#blade/HubsExtension/BrowseResourceGroupBlade) until you delete the resource.  
+    * Available through the Azure portal until you delete the resource.  
     * Use the same key and endpoint for your applications, across multiple Cognitive Services.
 
 ### Create an environment variable
@@ -93,8 +93,8 @@ Use the instructions for your operating system.
 #### [Windows](#tab/windows)
 
 ```console
-setx PRODUCT_NAME_KEY your-anomaly-detector-key
-setx PRODUCT_NAME_ENDPOINT your-anomaly-detector-endpoint
+setx PRODUCT_NAME_KEY <replace-with-your-anomaly-detector-key>
+setx PRODUCT_NAME_ENDPOINT <replace-with-your-anomaly-detector-endpoint>
 ```
 
 After you add the environment variable, restart the console window.
@@ -102,8 +102,8 @@ After you add the environment variable, restart the console window.
 #### [Linux](#tab/linux)
 
 ```bash
-export PRODUCT_NAME_KEY=your-anomaly-detector-key
-export PRODUCT_NAME_ENDPOINT=your-anomaly-detector-endpoint
+export PRODUCT_NAME_KEY=<replace-with-your-anomaly-detector-key>
+export PRODUCT_NAME_ENDPOINT=<replace-with-your-anomaly-detector-endpoint>
 ```
 
 After you add the environment variable, run `source ~/.bashrc` from your console window to make the changes effective.
@@ -113,8 +113,8 @@ After you add the environment variable, run `source ~/.bashrc` from your console
 Edit your `.bash_profile`, and add the environment variable:
 
 ```bash
-export PRODUCT_NAME_KEY=your-anomaly-detector-key
-export PRODUCT_NAME_ENDPOINT=your-anomaly-detector-endpoint
+export PRODUCT_NAME_KEY=<replace-with-your-anomaly-detector-key>
+export PRODUCT_NAME_ENDPOINT=<replace-with-your-anomaly-detector-endpoint>
 ```
 
 After you add the environment variable, run `source .bash_profile` from your console window to make the changes effective.
