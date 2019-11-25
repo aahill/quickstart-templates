@@ -43,7 +43,7 @@ Use the [Product Name] client library for Go to:
 
 ### Create a [Product Name] Azure resource 
 
-Begin using the [Product Name] service by creating an Azure resource. Choose the resource type below that's right for you:
+Begin using the [Product Name] by creating an Azure resource. Choose the resource type below that's right for you:
 <!--
     replace the links below with ones for your service
 -->

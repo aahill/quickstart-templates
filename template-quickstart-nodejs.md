@@ -63,7 +63,7 @@ Use the [Product Name] client library for Node.js to:
 
 ### Create a [Product Name] Azure resource
 
-Begin using the [Product Name] service by creating an Azure resource. Choose the resource type below that's right for you:
+Begin using the [Product Name] by creating an Azure resource. Choose the resource type below that's right for you:
 
 * A [trial resource](https://azure.microsoft.com/try/cognitive-services/#decision) (no Azure subscription needed): 
     * Valid for seven days, for free. After signing up, a trial key and endpoint will be available on the [Azure website](https://azure.microsoft.com/try/cognitive-services/my-apis/). 
