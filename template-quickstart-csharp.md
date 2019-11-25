@@ -91,8 +91,8 @@ Use the instructions for your operating system.
 #### [Windows](#tab/windows)
 
 ```console
-setx PRODUCT_NAME_KEY your-anomaly-detector-key
-setx PRODUCT_NAME_ENDPOINT your-anomaly-detector-endpoint
+setx PRODUCT_NAME_KEY <replace-with-your-product-name-key>
+setx PRODUCT_NAME_ENDPOINT <replace-with-your-product-name-endpoint>
 ```
 
 After you add the environment variable, restart the console window.
@@ -100,8 +100,8 @@ After you add the environment variable, restart the console window.
 #### [Linux](#tab/linux)
 
 ```bash
-export PRODUCT_NAME_KEY=your-anomaly-detector-key
-export PRODUCT_NAME_ENDPOINT=your-anomaly-detector-endpoint
+export PRODUCT_NAME_KEY=<replace-with-your-product-name-key>
+export PRODUCT_NAME_ENDPOINT=<replace-with-your-product-name-endpoint>
 ```
 
 After you add the environment variable, run `source ~/.bashrc` from your console window to make the changes effective.
@@ -111,8 +111,8 @@ After you add the environment variable, run `source ~/.bashrc` from your console
 Edit your `.bash_profile`, and add the environment variable:
 
 ```bash
-export PRODUCT_NAME_KEY=your-anomaly-detector-key
-export PRODUCT_NAME_ENDPOINT=your-anomaly-detector-endpoint
+export PRODUCT_NAME_KEY=<replace-with-your-product-name-key>
+export PRODUCT_NAME_ENDPOINT=<replace-with-your-product-name-endpoint>
 ```
 
 After you add the environment variable, run `source .bash_profile` from your console window to make the changes effective.
