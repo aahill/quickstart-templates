@@ -103,6 +103,9 @@ dotnet add package Microsoft.Azure.CognitiveServices.[Product Name] --version x.
 
 ---
 
+> [!TIP]
+> Want to view the whole quickstart code file at once? You can find it on [GitHub](), which contains the code examples in this quickstart.
+
 From the project directory, open the *program.cs* file and add the following `using` directives:
 
 ```csharp
