@@ -113,9 +113,11 @@ In the application's `main` method, create variables for your resource's Azure e
 
 ```java
 static void Main(string[] args){
-// You will create the below methods later in the quickstart
+
     String key = "<replace-with-your-[product-name]-key-here>";
     String endpoint = "<replace-with-your-[product-name]-endpoint-here>";
+    // You will create the below methods later in the quickstart
+    ...
 }
 ```
 
