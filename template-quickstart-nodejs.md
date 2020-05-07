@@ -66,9 +66,6 @@ Use the [Product Name] client library for JavaScript to:
 
 ### Create a new Node.js application
 
-<!--
-    replace the product with your product 
--->
 In a console window (such as cmd, PowerShell, or Bash), create a new directory for your app, and navigate to it. 
 
 ```console
@@ -80,6 +77,21 @@ Run the `npm init` command to create a node application with a `package.json` fi
 ```console
 npm init
 ```
+
+### Install the client library
+
+<!--
+    replace the product with your product 
+-->
+
+Install the `ms-rest-azure` and `azure-cognitiveservices-[Product Name]` NPM packages:
+
+```console
+npm install azure-cognitiveservices-[Product Name] ms-rest-azure
+```
+
+Your app's `package.json` file will be updated with the dependencies.
+
 
 Create a file named `index.js` and import the following libraries:
 
@@ -98,16 +110,6 @@ Create variables for your resource's Azure endpoint and key.
 key = "<paste-your-[product-name]-key-here>"
 endpoint = "<paste-your-[product-name]-endpoint-here>"
 ```
-
-### Install the client library
-
-Install the `ms-rest-azure` and `azure-cognitiveservices-[Product Name]` NPM packages:
-
-```console
-npm install azure-cognitiveservices-[Product Name] ms-rest-azure
-```
-
-Your app's `package.json` file will be updated with the dependencies.
 
 ## Object model
 
