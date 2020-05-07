@@ -47,7 +47,10 @@ Use the [Product Name] client library for Python to:
 
 * Azure subscription - [Create one for free](https://azure.microsoft.com/free/)
 * [Python 3.x](https://www.python.org/)
-
+* Once you have your Azure subscription, create a [Product Name resource](https://ms.portal.azure.com/#create/Microsoft.CognitiveServicesTextAnalytics) in the Azure portal to get your key and endpoint. Wait for it to deploy and click the **Go to resource** button.
+    * You will need the key and endpoint from the resource you create to connect your application to the Text Analytics API. You'll paste your key and endpoint into the code below later in the quickstart.
+    You can use the free pricing tier (`F0`) to try the service, and upgrade later to a paid tier for production.
+    
 ## Setting up
 
 <!--
@@ -61,91 +64,33 @@ Use the [Product Name] client library for Python to:
     Consider turning this setup section into a reusable include file for your service 
 -->
 
-### Create a [Product Name] Azure resource
-
-Begin using the [Product Name] by creating an Azure resource. Choose the resource type below that's right for you:
-
-* A [trial resource](https://azure.microsoft.com/try/cognitive-services/#decision) (no Azure subscription needed): 
-    * Valid for seven days, for free. After signing up, a trial key and endpoint will be available on the [Azure website](https://azure.microsoft.com/try/cognitive-services/my-apis/). 
-    * This is a great option if you want to try [Product Name], but don’t have an Azure subscription.
-<!-- Link to the 'create' blade in the azure portal -->
-* A [ [Product Name] resource](https://ms.portal.azure.com/#create/Microsoft.CognitiveServicesAnomalyDetector):
-    * Available through the Azure portal until you delete the resource.
-    * Use the free pricing tier to try the service, and upgrade later to a paid tier for production.
-<!-- remove the below text if your service is not supported by the multi-service option. -->
-* A [Multi-Service resource](https://ms.portal.azure.com/#create/Microsoft.CognitiveServicesAllInOne):
-    * Available through the Azure portal until you delete the resource.  
-    * Use the same key and endpoint for your applications, across multiple Cognitive Services.
-
-### Create an environment variable
-
->[!NOTE]
-> The endpoints for non-trial resources created after July 1, 2019 use the custom subdomain format shown below. For more information and a complete list of regional endpoints, see [Custom subdomain names for Cognitive Services](https://docs.microsoft.com/azure/cognitive-services/cognitive-services-custom-subdomains). 
-
-Using your key and endpoint from the resource you created, create two environment variables for authentication:
-<!-- replace the below variable names with the names expected in the code sample.-->
-* `PRODUCT_NAME_KEY` - The resource key for authenticating your requests.
-* `PRODUCT_NAME_ENDPOINT` - The resource endpoint for sending API requests. It will look like this: 
-  * `https://<your-custom-subdomain>.api.cognitive.microsoft.com` 
-
-Use the instructions for your operating system.
-<!-- replace the below endpoint and key examples -->
-#### [Windows](#tab/windows)
-
-```console
-setx PRODUCT_NAME_KEY <replace-with-your-product-name-key>
-setx PRODUCT_NAME_ENDPOINT <replace-with-your-product-name-endpoint>
-```
-
-After you add the environment variable, restart the console window.
-
-#### [Linux](#tab/linux)
-
-```bash
-export PRODUCT_NAME_KEY=<replace-with-your-product-name-key>
-export PRODUCT_NAME_ENDPOINT=<replace-with-your-product-name-endpoint>
-```
-
-After you add the environment variable, run `source ~/.bashrc` from your console window to make the changes effective.
-
-#### [macOS](#tab/unix)
-
-Edit your `.bash_profile`, and add the environment variable:
-
-```bash
-export PRODUCT_NAME_KEY=<replace-with-your-product-name-key>
-export PRODUCT_NAME_ENDPOINT=<replace-with-your-product-name-endpoint>
-```
-
-After you add the environment variable, run `source .bash_profile` from your console window to make the changes effective.
-***
-
-### Create a new python application
-
-Create a new Python application in your preferred editor or IDE. Then import the following libraries.
-
-```python
-import ...
-```
-
-<!--
-    change the environment key variable to something descriptive for your service.
-    For example: TEXT_ANALYTICS_KEY
--->
-
-
-Create variables for your resource's Azure endpoint and key. If you created the environment variable after you launched the application, you will need to close and reopen the editor, IDE, or shell running it to access the variable.
-
-```python
-
-```
-
 ### Install the client library
 
 After installing Python, you can install the client library with:
 
 ```console
 pip install --upgrade azure-cognitiveservices-[Product Name]
+```
+
+### Create a new python application
+
+Create a new Python file and import the following libraries.
+
+```python
+import ...
+```
+
+Create variables for your resource's Azure endpoint and key.
+
+
+> [!IMPORTANT]
+> Go to the Azure portal and find the key and endpoint for the [Product Name] resource you created in the prerequisites. They will be located on the resource's **key and endpoint** page, under **resource management**. Then replace the strings in the code below with your key and endpoint.
+>
+> Remember to remove the key from your code when you're done, and never post it publicly. For production, consider using a secure way of storing and accessing your credentials. For example, [Azure key vault](https://docs.microsoft.com/azure/key-vault/key-vault-overview).
+
+```python
+key = "<paste-your-[product-name]-key-here>"
+endpoint = "<paste-your-[product-name]-endpoint-here>"
 ```
 
 ## Object model
@@ -164,7 +109,7 @@ pip install --upgrade azure-cognitiveservices-[Product Name]
     Include links to the service's reference content when introducing a class for the first time
 -->
 
-These code snippets show you how to do the following with the [Product Name] client library for .NET:
+These code snippets show you how to do the following with the [Product Name] client library for Python:
 
 * [Authenticate the client](#)
 * [Example task 1 (anchor link)](#)
@@ -176,9 +121,6 @@ These code snippets show you how to do the following with the [Product Name] cli
 <!-- 
     The authentication section (and its H3) is required and must be the first code example in the section if your library requires authentication for use.
 -->
-
-> [!NOTE]
-> This quickstart assumes you've [created an environment variable](../../cognitive-services-apis-create-account.md#configure-an-environment-variable-for-authentication) for your [Product Name] key, named `[PRODUCT]_KEY`.
 
 Instantiate a client with your endpoint and key. Create an [ApiKeyServiceClientCredentials]() object with your key, and use it with your endpoint to create an [ApiClient]() object.
 
