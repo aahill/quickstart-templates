@@ -48,7 +48,10 @@ Use the [Product Name] client library for Java to:
 * Azure subscription - [Create one for free](https://azure.microsoft.com/free/)
 * The current version of the [Java Development Kit(JDK)](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
 * The [Gradle build tool](https://gradle.org/install/), or another dependency manager.
-
+* Once you have your Azure subscription, create a [Product Name resource](https://ms.portal.azure.com/#create/Microsoft.CognitiveServicesTextAnalytics) in the Azure portal to get your key and endpoint. Wait for it to deploy and click the **Go to resource** button.
+    * You will need the key and endpoint from the resource you create to connect your application to the Text Analytics API. You'll paste your key and endpoint into the code below later in the quickstart.
+    You can use the free pricing tier (`F0`) to try the service, and upgrade later to a paid tier for production.
+    
 ## Setting up
 
 <!--
@@ -60,69 +63,6 @@ Use the [Product Name] client library for Java to:
 <!-- 
     Consider turning this setup section into a reusable include file for your service 
 -->
-
-### Create a [Product Name] Azure resource
-
-<!--
-    replace the links below with ones for your service.
--->
-
-Begin using the [Product Name] by creating an Azure resource. Choose the resource type below that's right for you:
-
-* A [trial resource](https://azure.microsoft.com/try/cognitive-services/#decision) (no Azure subscription needed): 
-    * Valid for seven days, for free. After signing up, a trial key and endpoint will be available on the [Azure website](https://azure.microsoft.com/try/cognitive-services/my-apis/). 
-    * This is a great option if you want to try [Product Name], but don’t have an Azure subscription.
-<!-- Link to the 'create' blade in the azure portal -->
-* A [ [Product Name] resource](https://ms.portal.azure.com/#create/Microsoft.CognitiveServicesAnomalyDetector):
-    * Available through the Azure portal until you delete the resource.
-    * Use the free pricing tier to try the service, and upgrade later to a paid tier for production.
-<!-- remove the below text if your service is not supported by the multi-service option. -->
-* A [Multi-Service resource](https://ms.portal.azure.com/#create/Microsoft.CognitiveServicesAllInOne):
-    * Available through the Azure portal until you delete the resource.  
-    * Use the same key and endpoint for your applications, across multiple Cognitive Services.
-
-### Create an environment variable
-
->[!NOTE]
-> The endpoints for non-trial resources created after July 1, 2019 use the custom subdomain format shown below. For more information and a complete list of regional endpoints, see [Custom subdomain names for Cognitive Services](https://docs.microsoft.com/azure/cognitive-services/cognitive-services-custom-subdomains). 
-
-Using your key and endpoint from the resource you created, create two environment variables for authentication:
-<!-- replace the below variable names with the names expected in the code sample.-->
-* `PRODUCT_NAME_KEY` - The resource key for authenticating your requests.
-* `PRODUCT_NAME_ENDPOINT` - The resource endpoint for sending API requests. It will look like this: 
-  * `https://<your-custom-subdomain>.api.cognitive.microsoft.com` 
-
-Use the instructions for your operating system.
-<!-- replace the below endpoint and key examples -->
-#### [Windows](#tab/windows)
-
-```console
-setx PRODUCT_NAME_KEY <replace-with-your-product-name-key>
-setx PRODUCT_NAME_ENDPOINT <replace-with-your-product-name-endpoint>
-```
-
-After you add the environment variable, restart the console window.
-
-#### [Linux](#tab/linux)
-
-```bash
-export PRODUCT_NAME_KEY=<replace-your-product-name-key>
-export PRODUCT_NAME_ENDPOINT=<replace-your-product-name-endpoint>
-```
-
-After you add the environment variable, run `source ~/.bashrc` from your console window to make the changes effective.
-
-#### [macOS](#tab/unix)
-
-Edit your `.bash_profile`, and add the environment variable:
-
-```bash
-export PRODUCT_NAME_KEY=<replace-with-your-product-name-key>
-export PRODUCT_NAME_ENDPOINT=<replace-with-your-product-name-endpoint>
-```
-
-After you add the environment variable, run `source .bash_profile` from your console window to make the changes effective.
-***
 
 ### Create a new Gradle project
 
@@ -161,15 +101,24 @@ Navigate to the new folder and create a file called *<classname>.java*. Open it 
 ```java
 ```
 
-In the application's `main` method, create variables for your resource's Azure endpoint and key. If you created the environment variable after you launched the application, you will need to close and reopen the editor, IDE, or shell running it to access the variable. You will define the methods later.
+In the application's `main` method, create variables for your resource's Azure endpoint and key. 
 
 <!-- 
     Be sure the main method calls the example task functions in this quickstart.
 -->
 
-```java
+<!-- 
+    Be sure the main method calls the example task functions in this quickstart. The inline comment helps inform customers to implement the quickstart methods, in case they initially see "undefined method" errors.
+-->
 
+```java
+static void Main(string[] args){
+// You will create the below methods later in the quickstart
+    String key = "<replace-with-your-[product-name]-key-here>";
+    String endpoint = "<replace-with-your-[product-name]-endpoint-here>";
+}
 ```
+
 
 ### Install the client library
 
@@ -206,20 +155,11 @@ These code snippets show you how to do the following tasks with the [Product Nam
 * [link to example task 2]()
 * [link to example task 3]()
 
-<!--
-    change the environment key variable to something descriptive for your service.
-    For example: TEXT_ANALYTICS_KEY
--->
-
 ## Authenticate the client
 
 <!-- 
     The authentication section (and its H3) is required and must be the first code example in the section if your library requires authentication for use.
 -->
-
-> [!NOTE]
-> This quickstart assumes you've [created an environment variable](https://docs.microsoft.com/azure/cognitive-services/cognitive-services-apis-create-account#configure-an-environment-variable-for-authentication) for your [Product Name] key, named `TBD_KEY`.
-
 
 In a new method, instantiate a client with your endpoint and key. Create an [ApiKeyServiceClientCredentials]() object with your key, and use it with your endpoint to create an [ApiClient]() object.
 
