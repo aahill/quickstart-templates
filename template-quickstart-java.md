@@ -117,7 +117,7 @@ static void Main(string[] args){
     String key = "<replace-with-your-[product-name]-key-here>";
     String endpoint = "<replace-with-your-[product-name]-endpoint-here>";
     // You will create the below methods later in the quickstart
-    ...
+    exampleTask1();
 }
 ```
 

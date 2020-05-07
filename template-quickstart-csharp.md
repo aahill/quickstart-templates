@@ -134,8 +134,8 @@ In the application's `Main` method, create variables for your resource's Azure e
 
 ```csharp
 static void Main(string[] args){
-// You will create the below methods later in the quickstart
-...
+    // You will create the below methods later in the quickstart
+    exampleTask1();
 }
 ```
 
