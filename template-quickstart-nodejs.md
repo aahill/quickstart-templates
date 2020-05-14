@@ -48,7 +48,7 @@ Use the [Product Name] client library for JavaScript to:
 * Azure subscription - [Create one for free](https://azure.microsoft.com/free/)
 * The current version of [Node.js](https://nodejs.org/)
 * Once you have your Azure subscription, create a [Product Name resource](https://ms.portal.azure.com/#create/Microsoft.CognitiveServicesTextAnalytics) in the Azure portal to get your key and endpoint. Wait for it to deploy and click the **Go to resource** button.
-    * You will need the key and endpoint from the resource you create to connect your application to the Text Analytics API. You'll paste your key and endpoint into the code below later in the quickstart.
+    * You will need the key and endpoint from the resource you create to connect your application to [Product Name]. You'll paste your key and endpoint into the code below later in the quickstart.
     You can use the free pricing tier (`F0`) to try the service, and upgrade later to a paid tier for production.
     
 ## Setting up
@@ -66,9 +66,6 @@ Use the [Product Name] client library for JavaScript to:
 
 ### Create a new Node.js application
 
-<!--
-    replace the product with your product 
--->
 In a console window (such as cmd, PowerShell, or Bash), create a new directory for your app, and navigate to it. 
 
 ```console
@@ -80,6 +77,21 @@ Run the `npm init` command to create a node application with a `package.json` fi
 ```console
 npm init
 ```
+
+### Install the client library
+
+<!--
+    replace the product with your product 
+-->
+
+Install the `ms-rest-azure` and `azure-cognitiveservices-[Product Name]` NPM packages:
+
+```console
+npm install azure-cognitiveservices-[Product Name] ms-rest-azure
+```
+
+Your app's `package.json` file will be updated with the dependencies.
+
 
 Create a file named `index.js` and import the following libraries:
 
@@ -98,16 +110,6 @@ Create variables for your resource's Azure endpoint and key.
 key = "<paste-your-[product-name]-key-here>"
 endpoint = "<paste-your-[product-name]-endpoint-here>"
 ```
-
-### Install the client library
-
-Install the `ms-rest-azure` and `azure-cognitiveservices-[Product Name]` NPM packages:
-
-```console
-npm install azure-cognitiveservices-[Product Name] ms-rest-azure
-```
-
-Your app's `package.json` file will be updated with the dependencies.
 
 ## Object model
 
