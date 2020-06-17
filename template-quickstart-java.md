@@ -48,6 +48,7 @@ Use the [Product Name] client library for Java to:
 * Azure subscription - [Create one for free](https://azure.microsoft.com/free/cognitive-services/)
 * The current version of the [Java Development Kit(JDK)](https://www.oracle.com/technetwork/java/javase/downloads/index.html)
 * The [Gradle build tool](https://gradle.org/install/), or another dependency manager.
+<!-- this <a> link opens the Azure portal in a new tab/window. Replace the link with one to your service's resource create blade-->
 * Once you have your Azure subscription, <a href="https://ms.portal.azure.com/#create/Microsoft.CognitiveServicesTextAnalytics"  title="Create a [Product Name] resource"  target="_blank">create a [Product Name] resource <span class="docon docon-navigate-external x-hidden-focus"></span></a> in the Azure portal to get your key and endpoint. Wait for it to deploy and click the **Go to resource** button.
     * You will need the key and endpoint from the resource you create to connect your application to [Product Name]. You'll paste your key and endpoint into the code below later in the quickstart.
     You can use the free pricing tier (`F0`) to try the service, and upgrade later to a paid tier for production.
@@ -108,9 +109,10 @@ In the application's `[classname]` class, create variables for your resource's k
 >
 > Remember to remove the key from your code when you're done, and never post it publicly. For production, consider using a secure way of storing and accessing your credentials. For example, [Azure key vault](https://docs.microsoft.com/azure/key-vault/key-vault-overview).
 
+```java
 private static String KEY = "<replace-with-your-[product-name]-key-here>";
 private static String ENDPOINT = "<replace-with-your-[product-name]-endpoint-here>";
-
+```
 
 in the application’s `main()` method, add calls for the methods used in this quickstart. You’ll create these later.
 
