@@ -67,6 +67,7 @@ Use the [Product Name] client library for Java to:
 
 ### Create a new Gradle project
 
+This quickstart uses the Gradle dependency manager. You can find more client library information on the [Maven Central Repository](https://search.maven.org/artifact/com.microsoft.azure.cognitiveservices/azure-cognitiveservices-textanalytics/).
 
 <!--
     replace the product with your product 
@@ -85,11 +86,19 @@ gradle init --type basic
 
 When prompted to choose a **DSL**, select **Kotlin**.
 
-Locate *build.gradle.kts* and open it with your preferred IDE or text editor. Then copy in this build configuration:
+### Install the client library
+
+Locate *build.gradle.kts* and open it with your preferred IDE or text editor. Then copy in this build configuration. Be sure to include the project dependencies.
 
 ```kotlin
-
+dependencies {
+    compile("com.squareup.okhttp:okhttp:2.5.0")
+    compile("com.microsoft....") <!-- Consider highlighting the line containing the library-->
+}
 ```
+
+### Create a Java file
+
 <!-- replace <classname> with a descriptive name for your service-->
 Create a folder for your sample app. From your working directory, run the following command:
 
@@ -129,19 +138,6 @@ static void Main(string[] args){
 ```
 
 
-### Install the client library
-
-This quickstart uses the Gradle dependency manager. You can find the client library and information for other dependency managers on the [Maven Central Repository](https://search.maven.org/artifact/com.microsoft.azure.cognitiveservices/azure-cognitiveservices-textanalytics/).
-
-In your project's *build.gradle.kts* file, be sure to include the client library as an `implementation` statement. 
-
-```kotlin
-dependencies {
-    compile("com.squareup.okhttp:okhttp:2.5.0")
-    compile("com.microsoft....") <!-- Consider highlighting the line containing the library-->
-}
-```
-
 ## Object model
 
 <!-- 
@@ -154,7 +150,8 @@ dependencies {
 <!--
     Include code snippets and short descriptions for each task you list in the the bulleted list. Briefly explain each operation, but include enough clarity to explain complex or otherwise tricky operations.
 
-    Include links to the service's reference content when introducing a class for the first time
+    Include links to the service's reference content when introducing a class for the first time, when possible.
+
 -->
 
 These code snippets show you how to do the following tasks with the [Product Name] client library for Java:
@@ -183,6 +180,14 @@ Example: Create a new method to read in the data and add it to a [Request](https
 ```java
 
 ```
+
+<!-- 
+    Show the application output from each task, if output exists
+    If this code sample is in a function, tell the reader to call it. For example:
+
+    Call the `example()` function.
+
+-->
 
 ## Example task 2
 

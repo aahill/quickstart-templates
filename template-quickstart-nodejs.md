@@ -1,6 +1,6 @@
 ---
-title: "Quickstart: [Product Name] client library for Node.js | Microsoft Docs"
-description: Get started with the [Product Name] client library for Node.js...
+title: "Quickstart: [Product Name] client library for JavaScript | Microsoft Docs"
+description: Get started with the [Product Name] client library for JavaScript...
 services: cognitive-services
 author: 
 manager: nitinme
@@ -157,6 +157,7 @@ Example: Create a new method to read in the data and add it to a [Request](https
 ```
 
 <!-- 
+    Show the application output from each task, if output exists
     If this code sample is in a function, tell the reader to call it. For example:
 
     Call the `example()` function.
@@ -169,13 +170,6 @@ Example: Create a new method to read in the data and add it to a [Request](https
 
 ```javascript
 ```
-
-<!-- 
-    If this code sample is in a function, tell the reader to call it. For example:
-
-    Call the `example()` function.
-
--->
 
 ## Run the application
 
