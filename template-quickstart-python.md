@@ -77,6 +77,9 @@ pip install --upgrade azure-cognitiveservices-[Product Name]
 
 Create a new Python file and import the following libraries.
 
+> [!TIP]
+> Want to view the whole quickstart code file at once? You can find it on [GitHub](), which contains the code examples in this quickstart.
+
 ```python
 import ...
 ```
@@ -189,4 +192,3 @@ If you want to clean up and remove a Cognitive Services subscription, you can de
 * [What is the [Product Name] API?](../overview.md)
 * [Article2](../overview.md)
 * [Article3](../overview.md)
-* The source code for this sample can be found on [GitHub]().
