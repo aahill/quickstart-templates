@@ -138,6 +138,7 @@ Example: Create a new method to read in the data and add it to a [Request](https
 ```
 
 <!-- 
+    Show the application output from each task, if output exists
     If this code sample is in a function, tell the reader to call it. For example:
 
     Call the `example()` function.

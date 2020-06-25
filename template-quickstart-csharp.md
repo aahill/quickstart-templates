@@ -70,7 +70,11 @@ Use your knowledge of your audience to determine whether CLI and/or Visual Studi
 
 #### [Visual Studio IDE](#tab/visual-studio)
 
-Using Visual Studio, create a .NET Core application and install the client library by right-clicking on the solution in the **Solution Explorer** and selecting **Manage NuGet Packages**. In the package manager that opens select **Browse**, check **Include prerelease**, and search for `[package-name]`. Select version `[version]`, and then **Install**. 
+Using Visual Studio, create a new .NET Core application. 
+
+### Install the client library 
+
+Once you've created a new project, install the client library by right-clicking on the project solution in the **Solution Explorer** and selecting **Manage NuGet Packages**. In the package manager that opens select **Browse**, check **Include prerelease**, and search for `[package-name]`. Select version `[version]`, and then **Install**. 
 
 #### [CLI](#tab/cli)
 
@@ -95,6 +99,8 @@ Build succeeded.
  0 Error(s)
 ...
 ```
+
+### Install the client library 
 
 Within the application directory, install the [Product Name] client library for .NET with the following command:
 <!-- consider displaying the --version parameter to prevent code breakages after library updates -->
@@ -183,6 +189,14 @@ Example: Create a new method to read in the data and add it to a [Request](https
 ```csharp
 
 ```
+
+<!-- 
+    Show the application output from each task, if output exists
+    If this code sample is in a function, tell the reader to call it. For example:
+
+    Call the `example()` function.
+
+-->
 
 ## Example task 2
 
