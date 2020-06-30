@@ -108,6 +108,9 @@ mkdir -p src/main/java
 
 Navigate to the new folder and create a file called *<classname>.java*. Open it in your preferred editor or IDE and add the following `import` statements:
 
+> [!TIP]
+> Want to view the whole quickstart code file at once? You can find it on [GitHub](), which contains the code examples in this quickstart.
+
 ```java
 ```
 
@@ -116,7 +119,7 @@ In the application's `[classname]` class, create variables for your resource's k
 > [!IMPORTANT]
 > Go to the Azure portal. If the [Product name] resource you created in the **Prerequisites** section deployed successfully, click the **Go to Resource** button under **Next Steps**. You can find your key and endpoint in the resource's **key and endpoint** page, under **resource management**. 
 >
-> Remember to remove the key from your code when you're done, and never post it publicly. For production, consider using a secure way of storing and accessing your credentials. For example, [Azure key vault](https://docs.microsoft.com/azure/key-vault/key-vault-overview).
+> Remember to remove the key from your code when you're done, and never post it publicly. For production, consider using a secure way of storing and accessing your credentials. See the Cognitive Services [security](https://docs.microsoft.com/azure/cognitive-services/cognitive-services-security) article for more information.
 
 ```java
 private static String KEY = "<replace-with-your-[product-name]-key-here>";

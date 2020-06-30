@@ -126,7 +126,7 @@ In the application's `Program` class, create variables for your resource's key a
 > [!IMPORTANT]
 > Go to the Azure portal. If the [Product name] resource you created in the **Prerequisites** section deployed successfully, click the **Go to Resource** button under **Next Steps**. You can find your key and endpoint in the resource's **key and endpoint** page, under **resource management**. 
 >
-> Remember to remove the key from your code when you're done, and never post it publicly. For production, consider using a secure way of storing and accessing your credentials. For example, [Azure key vault](https://docs.microsoft.com/azure/key-vault/key-vault-overview).
+> Remember to remove the key from your code when you're done, and never post it publicly. For production, consider using a secure way of storing and accessing your credentials. See the Cognitive Services [security](https://docs.microsoft.com/azure/cognitive-services/cognitive-services-security) article for more information.
 
 
 
@@ -243,4 +243,3 @@ If you want to clean up and remove a Cognitive Services subscription, you can de
 * [What is the [Product Name] API?](../overview.md)
 * [Article2](../overview.md)
 * [Article3](../overview.md)
-* The source code for this sample can be found on [GitHub]().
