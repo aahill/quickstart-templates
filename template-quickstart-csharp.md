@@ -78,7 +78,7 @@ Once you've created a new project, install the client library by right-clicking 
 
 #### [CLI](#tab/cli)
 
-In a console window (such as cmd, PowerShell, or Bash), use the `dotnet new` command to create a new console app with the name `(product-name)-quickstart`. This command creates a simple "Hello World" C# project with a single source file: *program.cs*. 
+In a console window (such as cmd, PowerShell, or Bash), use the `dotnet new` command to create a new console app with the name `(product-name)-quickstart`. This command creates a simple "Hello World" C# project with a single source file: *Program.cs*.
 
 ```console
 dotnet new console -n (product-name)-quickstart
@@ -154,6 +154,12 @@ static void Main(string[] args){
     Briefly introduce and describe the functionality of the library's main classes. Include links to their reference pages.
     Briefly explain the object hierarchy and how the classes work together to manipulate resources in the service.
 -->
+
+The following classes and interfaces handle some of the major features of the [Product Name] .NET SDK.
+
+|Name|Description|
+|---|---|
+| | |
 
 ## Code examples
 

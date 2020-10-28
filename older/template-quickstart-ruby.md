@@ -156,6 +156,12 @@ gem 'azure_cognitiveservices_[Product Name]'
     Explain the object hierarchy and how the classes work together to manipulate resources in the service.
 -->
 
+The following classes and interfaces handle some of the major features of the [Product Name] Ruby SDK.
+
+|Name|Description|
+|---|---|
+| | |
+
 ## Code examples
 
 <!--
@@ -164,7 +170,7 @@ gem 'azure_cognitiveservices_[Product Name]'
     Include links to the service's reference content when introducing a class for the first time
 -->
 
-These code snippets show you how to do the following with the [Product Name] client library for Ruby:
+These code snippets show you how to do the following tasks with the [Product Name] client library for Ruby:
 
 * [Authenticate the client](#)
 * [Example task 1 (anchor link)](#)
@@ -176,7 +182,7 @@ These code snippets show you how to do the following with the [Product Name] cli
 > [!NOTE]
 > This quickstart assumes you've [created an environment variable](https://docs.microsoft.com/azure/cognitive-services/cognitive-services-apis-create-account#configure-an-environment-variable-for-authentication) for your [Product Name] key, named `TBD_KEY`.
 
-Instantiate a client with your endpoint and key. Create an [ApiKeyServiceClientCredentials]() object with your key, and use it with your endpoint to create an [ApiClient]() object.
+Instantiate a client with your endpoint and key. Create a [CognitiveServicesCredentials](https://docs.microsoft.com/python/api/msrest/msrest.authentication.cognitiveservicescredentials?view=azure-python) object with your key, and use it with your endpoint to create an [ApiClient]() object.
 
 ```ruby
 

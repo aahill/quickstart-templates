@@ -78,7 +78,7 @@ In a console window (such as cmd, PowerShell, or Bash), create a new directory f
 mkdir myapp && cd myapp
 ```
 
-Run the `gradle init` command from your working directory. This command will create essential build files for Gradle, including *build.gradle.kts* which is used at runtime to create and configure your application.
+Run the `gradle init` command from your working directory. This command will create essential build files for Gradle, including *build.gradle.kts*, which is used at runtime to create and configure your application.
 
 ```console
 gradle init --type basic
@@ -86,21 +86,30 @@ gradle init --type basic
 
 When prompted to choose a **DSL**, select **Kotlin**.
 
-### Install the client library
+<!--replace all <service-specific> values -->
 
-Locate *build.gradle.kts* and open it with your preferred IDE or text editor. Then copy in this build configuration. Be sure to include the project dependencies.
+Locate *build.gradle.kts* and open it with your preferred IDE or text editor. Then copy in the following build configuration. This configuration defines the project as a Java application whose entry point is the class **<service-specific>**. It imports the Computer Vision library.
 
 ```kotlin
+plugins {
+    java
+    application
+}
+application { 
+    mainClassName = "<service-specific>"
+}
+repositories {
+    mavenCentral()
+}
 dependencies {
-    compile("com.squareup.okhttp:okhttp:2.5.0")
-    compile("com.microsoft....") <!-- Consider highlighting the line containing the library-->
+    compile(group = "<service-specific>", name = "<service-specific>", version = "<service-specific>")
 }
 ```
 
 ### Create a Java file
 
 <!-- replace <classname> with a descriptive name for your service-->
-Create a folder for your sample app. From your working directory, run the following command:
+From your working directory, run the following command to create a project source folder:
 
 ```console
 mkdir -p src/main/java
@@ -147,6 +156,12 @@ static void Main(string[] args){
     Briefly introduce and describe the functionality of the library's main classes. Include links to their reference pages.
     Briefly explain the object hierarchy and how the classes work together to manipulate resources in the service.
 -->
+
+The following classes and interfaces handle some of the major features of the [Product Name] Java SDK.
+
+|Name|Description|
+|---|---|
+| | |
 
 ## Code examples
 
@@ -208,7 +223,7 @@ You can build the app with:
 gradle build
 ```
 
-Run the application with the `run` goal:
+Run the application with the `gradle run` command:
 
 ```console
 gradle run

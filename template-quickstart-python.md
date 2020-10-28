@@ -105,6 +105,12 @@ endpoint = "<paste-your-[product-name]-endpoint-here>"
     Explain the object hierarchy and how the classes work together to manipulate resources in the service.
 -->
 
+The following classes and interfaces handle some of the major features of the [Product Name] Python SDK.
+
+|Name|Description|
+|---|---|
+| | |
+
 ## Code examples
 
 <!--

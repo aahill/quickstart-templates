@@ -122,6 +122,12 @@ endpoint = "<paste-your-[product-name]-endpoint-here>"
     Explain the object hierarchy and how the classes work together to manipulate resources in the service.
 -->
 
+The following classes and interfaces handle some of the major features of the [Product Name] Node.js SDK.
+
+|Name|Description|
+|---|---|
+| | |
+
 ## Code examples
 
 <!--
@@ -130,7 +136,7 @@ endpoint = "<paste-your-[product-name]-endpoint-here>"
     Include links to the service's reference content when introducing a class for the first time
 -->
 
-These code snippets show you how to do the following with the [Product Name] client library for JavaScript:
+These code snippets show you how to do the following tasks with the [Product Name] client library for Node.js:
 
 * [Authenticate the client](#)
 * [Example task 1 (anchor link)](#)
