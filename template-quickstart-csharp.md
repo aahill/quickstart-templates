@@ -1,5 +1,5 @@
 ---
-title: "Quickstart: [Product name] client library for .NET | Microsoft Docs"
+title: "Quickstart: [Product name] client library for .NET"
 description: Get started with the [Product Name] client library for .NET...
 services: cognitive-services
 author: 
@@ -50,7 +50,7 @@ Use the [Product Name] client library for .NET to:
 <!-- this <a> link opens the Azure portal in a new tab/window. Replace the link with one to your service's resource create blade-->
 * Once you have your Azure subscription, <a href="https://ms.portal.azure.com/#create/Microsoft.CognitiveServicesTextAnalytics"  title="Create a [Product Name] resource"  target="_blank">create a [Product Name] resource <span class="docon docon-navigate-external x-hidden-focus"></span></a> in the Azure portal to get your key and endpoint. Wait for it to deploy and click the **Go to resource** button.
     * You will need the key and endpoint from the resource you create to connect your application to [Product Name]. You'll paste your key and endpoint into the code below later in the quickstart.
-    You can use the free pricing tier (`F0`) to try the service, and upgrade later to a paid tier for production.
+    * You can use the free pricing tier (`F0`) to try the service, and upgrade later to a paid tier for production.
     
 
 
@@ -121,7 +121,7 @@ using ...
 using ...
 ```
 
-In the application's `Program` class, create variables for your resource's key and endpoint.
+In the application's **Program** class, create variables for your resource's key and endpoint.
 
 > [!IMPORTANT]
 > Go to the Azure portal. If the [Product name] resource you created in the **Prerequisites** section deployed successfully, click the **Go to Resource** button under **Next Steps**. You can find your key and endpoint in the resource's **key and endpoint** page, under **resource management**. 
@@ -135,7 +135,7 @@ private static readonly AzureKeyCredential credentials = new AzureKeyCredential(
 private static readonly Uri endpoint = new Uri("<replace-with-your-[product-name]-endpoint-here>");
 ```
 
-in the application’s `main()` method, add calls for the methods used in this quickstart. You will create these later.
+In the application's **Main** method, add calls for the methods used in this quickstart. You will implement these later.
 
 <!-- 
     Be sure the main method calls the example task functions in this quickstart. The inline comment helps inform customers to implement the quickstart methods, in case they initially see "undefined method" errors.

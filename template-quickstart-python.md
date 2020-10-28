@@ -1,5 +1,5 @@
 ---
-title: "Quickstart: [Product name] client library for Python | Microsoft Docs"
+title: "Quickstart: [Product name] client library for Python"
 description: Get started with the [Product Name] client library for Python...
 services: cognitive-services
 author: 
@@ -41,7 +41,7 @@ Use the [Product Name] client library for Python to:
     Include the following single line of links targeting the library's companion content at the bottom of the introduction; make adjustments as necessary, but try not to include any other links or content in the introduction.
 -->
 
-[Reference documentation](https://docs.microsoft.com/dotnet/api/Microsoft.Azure.CognitiveServices.AnomalyDetector?view=azure-dotnet-preview) | [Library source code](https://github.com/Azure/azure-sdk-for-net/tree/master/sdk/cognitiveservices/AnomalyDetector) | [Package (PiPy)](https://www.nuget.org/packages/Microsoft.Azure.CognitiveServices.AnomalyDetector/) | [Samples](https://github.com/Azure-Samples/anomalydetector)
+[Reference documentation](https://docs.microsoft.com/dotnet/api/Microsoft.Azure.CognitiveServices.AnomalyDetector?view=azure-dotnet-preview) | [Library source code](https://github.com/Azure/azure-sdk-for-net/tree/master/sdk/cognitiveservices/AnomalyDetector) | [Package (PyPI)](https://www.nuget.org/packages/Microsoft.Azure.CognitiveServices.AnomalyDetector/) | [Samples](https://github.com/Azure-Samples/anomalydetector)
 
 ## Prerequisites
 
@@ -50,7 +50,7 @@ Use the [Product Name] client library for Python to:
 <!-- this <a> link opens the Azure portal in a new tab/window. Replace the link with one to your service's resource create blade-->
 * Once you have your Azure subscription, <a href="https://ms.portal.azure.com/#create/Microsoft.CognitiveServicesTextAnalytics"  title="Create a [Product Name] resource"  target="_blank">create a [Product Name] resource <span class="docon docon-navigate-external x-hidden-focus"></span></a> in the Azure portal to get your key and endpoint. Wait for it to deploy and click the **Go to resource** button.
     * You will need the key and endpoint from the resource you create to connect your application to [Product Name]. You'll paste your key and endpoint into the code below later in the quickstart.
-    You can use the free pricing tier (`F0`) to try the service, and upgrade later to a paid tier for production.
+    * You can use the free pricing tier (`F0`) to try the service, and upgrade later to a paid tier for production.
     
 ## Setting up
 

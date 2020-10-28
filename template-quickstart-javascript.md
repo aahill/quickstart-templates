@@ -1,5 +1,5 @@
 ---
-title: "Quickstart: [Product Name] client library for JavaScript | Microsoft Docs"
+title: "Quickstart: [Product Name] client library for JavaScript"
 description: Get started with the [Product Name] client library for JavaScript...
 services: cognitive-services
 author: 
@@ -130,7 +130,7 @@ endpoint = "<paste-your-[product-name]-endpoint-here>"
     Include links to the service's reference content when introducing a class for the first time
 -->
 
-These code snippets show you how to do the following with the [Product Name] client library for .NET:
+These code snippets show you how to do the following with the [Product Name] client library for JavaScript:
 
 * [Authenticate the client](#)
 * [Example task 1 (anchor link)](#)
